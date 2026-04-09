@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* MeshWest Brand Colors */
+  --mw-black: #000000;
+  --mw-dark-gray: #1a1a2e;
+  --mw-gray: #a5a5a5;
+  --mw-light-gray: #ececec;
+  --mw-cyan: #00d4ff;
+  --mw-blue: #0066ff;
+  --mw-amber: #ffb800;
+  --mw-red: #ff3b3b;
+
+  /* Semantic tokens */
+  --background: var(--mw-black);
+  --foreground: var(--mw-light-gray);
+  --card: var(--mw-dark-gray);
+  --card-foreground: var(--mw-light-gray);
+  --popover: var(--mw-dark-gray);
+  --popover-foreground: var(--mw-light-gray);
+  --primary: var(--mw-cyan);
+  --primary-foreground: var(--mw-black);
+  --secondary: var(--mw-blue);
+  --secondary-foreground: var(--mw-light-gray);
+  --muted: var(--mw-dark-gray);
+  --muted-foreground: var(--mw-gray);
+  --accent: var(--mw-amber);
+  --accent-foreground: var(--mw-black);
+  --destructive: var(--mw-red);
+  --destructive-foreground: var(--mw-light-gray);
+  --border: var(--mw-cyan);
+  --input: var(--mw-dark-gray);
+  --ring: var(--mw-cyan);
+  --radius: 0rem;
+}
+
+@theme inline {
+  --font-sans: "Courier New", "Courier", monospace;
+  --font-mono: "Courier New", "Courier", monospace;
+
+  /* Brand colors */
+  --color-mw-black: var(--mw-black);
+  --color-mw-dark-gray: var(--mw-dark-gray);
+  --color-mw-gray: var(--mw-gray);
+  --color-mw-light-gray: var(--mw-light-gray);
+  --color-mw-cyan: var(--mw-cyan);
+  --color-mw-blue: var(--mw-blue);
+  --color-mw-amber: var(--mw-amber);
+  --color-mw-red: var(--mw-red);
+
+  /* Semantic tokens */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-mono;
+  }
+}
+
+@layer utilities {
+  @keyframes glitch-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px) scale(0.95);
+      filter: blur(2px);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateX(5px) scale(1.02);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      filter: blur(0);
+    }
+  }
+
+  @keyframes glitch-out {
+    0% {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      filter: blur(0);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateX(-5px) scale(0.98);
+      filter: blur(1px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(10px) scale(0.95);
+      filter: blur(2px);
+    }
+  }
+
+  .animate-glitch-in {
+    animation: glitch-in 0.5s ease-out forwards;
+  }
+
+  .animate-glitch-out {
+    animation: glitch-out 0.5s ease-in forwards;
+  }
+}
