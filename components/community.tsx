@@ -16,7 +16,7 @@ export function Community() {
             </p>
 
             <p className="text-lg leading-relaxed">
-              <span className="text-mw-cyan font-bold">:[From coast to summit]</span> our members are deploying solar-powered repeaters on mountaintops, flashing firmware in their garages, and connecting communities from Victoria to Calgary
+              <span className="text-mw-cyan font-bold">:[From coast to summit]</span> our members are deploying solar-powered repeaters on mountaintops, flashing firmware in their garages, and connecting communities from Ucluelet to Iqaluit
             </p>
 
             <p className="text-lg leading-relaxed">
@@ -29,7 +29,7 @@ export function Community() {
           {/* Join Community Button */}
           <footer className="mt-12 text-center">
             <a
-              href="https://discord.gg/meshwest"
+              href="https://discord.gg/y9k894BF6A"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block font-mono px-8 py-3 bg-mw-cyan text-primary-foreground font-bold hover:bg-mw-amber transition-colors border-2 border-mw-cyan hover:border-mw-amber"
