@@ -7,7 +7,7 @@ import { FooterNav } from "@/components/footer-nav"
 export const metadata: Metadata = {
   title: "MeshWest - Western Canada's MeshCore Community",
   description:
-    "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across British Columbia and Alberta. No cell, internet, or power needed.",
+    "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across Western Canada and the Canadian Territories. No cell, internet, or power needed.",
   keywords: [
     "mesh networking",
     "LoRa",
@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     url: "https://westmesh.org",
     title: "MeshWest - Western Canada's MeshCore Community",
     description:
-      "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across British Columbia and Alberta.",
+      "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across Western Canada and the Canadian Territories.",
     siteName: "MeshWest",
   },
   twitter: {
     card: "summary_large_image",
     title: "MeshWest - Western Canada's MeshCore Community",
     description:
-      "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across British Columbia and Alberta.",
+      "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across Western Canada and the Canadian Territories.",
   },
   robots: {
     index: true,

@@ -14,7 +14,7 @@ export function About() {
           {/* Main Description */}
           <article className="space-y-6">
             <p className="font-mono text-lg text-mw-light-gray leading-relaxed">
-              MeshWest is a community hub for building Western Canada&#39;s decentralized mesh network. Spanning British Columbia and Alberta, this network is entirely user-supplied, powered by people like you.
+              MeshWest is a community hub for building Western Canada&#39;s decentralized mesh network. Spanning Western Canada and the Canadian Territories, this network is entirely user-supplied, powered by people like you.
             </p>
             <p className="font-mono text-lg text-mw-light-gray leading-relaxed">
               {"Our community runs MeshCore software, enabling secure connections for off-grid use, family communications, emergency response & disaster recovery, backcountry activities, and IoT sensor networks."}
