@@ -44,7 +44,7 @@ export function FrequencyBanner() {
         <div className="container mx-auto px-4 py-2 sm:py-3">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
             <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity shrink-0">
-              <span className="font-mono font-bold text-mw-cyan text-sm sm:text-base tracking-wider">MESHWEST</span>
+              <span className="font-mono font-bold text-mw-cyan text-sm sm:text-base tracking-wider">WESTMESH</span>
             </Link>
             <button
               onClick={() => setIsModalOpen(true)}

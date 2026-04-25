@@ -1,8 +1,8 @@
-# MeshWest
+# WestMesh
 
 **Western Canada's MeshCore Community**
 
-MeshWest is a decentralized LoRa/MeshCore network enabling text communication without cell, internet, or power. Built for emergency preparedness, backcountry safety, rural connectivity, and privacy-first off-grid communications across British Columbia and Alberta.
+WestMesh is a decentralized LoRa/MeshCore network enabling text communication without cell, internet, or power. Built for emergency preparedness, backcountry safety, rural connectivity, and privacy-first off-grid communications across British Columbia and Alberta.
 
 ## Features
 
@@ -13,7 +13,7 @@ MeshWest is a decentralized LoRa/MeshCore network enabling text communication wi
 
 ## Getting Started
 
-1. Join our [Discord](https://discord.gg/meshwest)
+1. Join our [Discord](https://discord.gg/y9k894BF6A)
 2. Get a LoRa-compatible device (e.g., WisMesh Tag)
 3. Flash [MeshCore firmware](https://flasher.meshcore.co.uk/)
 4. Configure your regional frequency settings
@@ -45,4 +45,4 @@ Static output goes to `/out`.
 
 ## License
 
-MIT © 2026 MeshWest Community
+MIT © 2026 WestMesh Community

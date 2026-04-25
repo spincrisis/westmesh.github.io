@@ -12,7 +12,7 @@ export function Community() {
           {/* Community Description */}
           <div className="space-y-6 font-mono text-mw-light-gray">
             <p className="text-lg leading-relaxed">
-              <span className="text-mw-cyan font-bold">:(MESHWEST)</span> is a community of radio enthusiasts, makers, and neighbours building resilient communications across Western Canada
+              <span className="text-mw-cyan font-bold">:(WESTMESH)</span> is a community of radio enthusiasts, makers, and neighbours building resilient communications across Western Canada
             </p>
 
             <p className="text-lg leading-relaxed">

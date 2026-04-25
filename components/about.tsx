@@ -6,7 +6,7 @@ export function About() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <header className="mb-12 text-center">
-          <h2 className="font-mono text-3xl sm:text-4xl font-bold text-mw-cyan mb-4">{":[WHAT IS MESHWEST]"}</h2>
+          <h2 className="font-mono text-3xl sm:text-4xl font-bold text-mw-cyan mb-4">{":[WHAT IS WESTMESH]"}</h2>
           <div className="h-1 w-24 bg-mw-cyan mx-auto" />
         </header>
 
@@ -14,7 +14,7 @@ export function About() {
           {/* Main Description */}
           <article className="space-y-6">
             <p className="font-mono text-lg text-mw-light-gray leading-relaxed">
-              MeshWest is a community hub for building Western Canada&#39;s decentralized mesh network. Spanning Western Canada and the Canadian Territories, this network is entirely user-supplied, powered by people like you.
+              WestMesh is a community hub for building Western Canada&#39;s decentralized mesh network. Spanning Western Canada and the Canadian Territories, this network is entirely user-supplied, powered by people like you.
             </p>
             <p className="font-mono text-lg text-mw-light-gray leading-relaxed">
               {"Our community runs MeshCore software, enabling secure connections for off-grid use, family communications, emergency response & disaster recovery, backcountry activities, and IoT sensor networks."}

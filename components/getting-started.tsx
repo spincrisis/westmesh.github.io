@@ -6,7 +6,7 @@ export function GettingStarted() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="text-center mb-16">
           <h2 className="font-mono text-3xl sm:text-4xl lg:text-5xl font-bold text-mw-light-gray mb-4">
-            Get Started with MeshWest
+            Get Started with WestMesh
           </h2>
           <p className="font-mono text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
             Join your community to experience reliable communications without traditional infrastructure
@@ -27,7 +27,7 @@ export function GettingStarted() {
             </p>
             <div className="mt-4 text-center">
               <a
-                href="https://discord.gg/meshwest"
+                href="https://discord.gg/y9k894BF6A"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-sm text-mw-cyan hover:text-mw-amber transition-colors underline"

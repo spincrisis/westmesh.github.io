@@ -8,7 +8,7 @@ export function FooterNav() {
           {/* Discord Link */}
           <li>
             <a
-              href="https://discord.gg/meshwest"
+              href="https://discord.gg/y9k894BF6A"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 text-foreground hover:text-mw-cyan transition-colors"

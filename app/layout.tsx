@@ -5,7 +5,7 @@ import { FrequencyBanner } from "@/components/frequency-banner"
 import { FooterNav } from "@/components/footer-nav"
 
 export const metadata: Metadata = {
-  title: "MeshWest - Western Canada's MeshCore Community",
+  title: "WestMesh - Western Canada's MeshCore Community",
   description:
     "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across Western Canada and the Canadian Territories. No cell, internet, or power needed.",
   keywords: [
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "decentralized communication",
     "off-grid messaging",
     "encrypted communications",
-    "MeshWest",
+    "WestMesh",
     "MeshCore",
     "Western Canada",
     "British Columbia",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "emergency communications",
     "peer-to-peer network",
   ],
-  authors: [{ name: "MeshWest Community" }],
-  creator: "MeshWest",
-  publisher: "MeshWest",
+  authors: [{ name: "WestMesh Community" }],
+  creator: "WestMesh",
+  publisher: "WestMesh",
   metadataBase: new URL("https://westmesh.org"),
   alternates: {
     canonical: "/",
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     url: "https://westmesh.org",
-    title: "MeshWest - Western Canada's MeshCore Community",
+    title: "WestMesh - Western Canada's MeshCore Community",
     description:
       "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across Western Canada and the Canadian Territories.",
-    siteName: "MeshWest",
+    siteName: "WestMesh",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MeshWest - Western Canada's MeshCore Community",
+    title: "WestMesh - Western Canada's MeshCore Community",
     description:
       "Western Canada's decentralized LoRa mesh network. Reliable, encrypted, off-grid communications across Western Canada and the Canadian Territories.",
   },

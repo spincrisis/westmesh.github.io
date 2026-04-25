@@ -19,7 +19,7 @@ export function Hero() {
         {/* Hero Title */}
         <header className="mb-8 flex flex-col items-center">
           <h1 className="font-mono text-5xl sm:text-6xl lg:text-8xl font-bold text-mw-cyan tracking-tight">
-            MESHWEST
+            WESTMESH
           </h1>
           <p className="font-mono text-lg sm:text-xl text-mw-light-gray mt-2 tracking-widest uppercase">
             Western Canada&#39;s MeshCore Community
