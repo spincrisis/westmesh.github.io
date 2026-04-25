@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* MeshWest Brand Colors */
+  /* WestMesh Brand Colors */
   --mw-black: #000000;
   --mw-dark-gray: #1a1a2e;
   --mw-gray: #a5a5a5;
